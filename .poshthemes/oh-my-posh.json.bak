@@ -1,0 +1,39 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "background": "#0087af",
+          "properties": {
+            "display_host": false
+          }
+        },
+        {
+          "type": "path",
+          "style": "diamond",
+          "trailing_diamond": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#585858",
+          "properties": {
+            "prefix": "<#0087af>\uE0B0</> ",
+            "folder_separator_icon": " <#808080>\uE0B1</> ",
+            "style": "agnoster_full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff6a00"
+        }
+      ]
+    }
+  ],
+  "final_space": true
+}
